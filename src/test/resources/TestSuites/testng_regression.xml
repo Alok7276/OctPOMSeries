@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HRM" thread-count="2"  verbose="4">
+	<test name="Login Page Test">
+		<classes>
+			<class name="test.LoginPageTest" />
+		</classes>
+	</test>
+	<test name="Dash Board Test">
+		<classes>
+			<class name="test.DashBoardPageTest" />
+		</classes>
+
+	</test>
+</suite> <!-- Suite -->

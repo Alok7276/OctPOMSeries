@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-07T16:56:28 IST" name="HRM" finished-at="2021-10-07T16:58:08 IST" duration-ms="99948">
+    <groups>
+    </groups>
+    <test started-at="2021-10-07T16:56:28 IST" name="Login Page Test" finished-at="2021-10-07T16:56:53 IST" duration-ms="24776">
+      <class name="test.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginPageTest@22ef9844]" started-at="2021-10-07T16:56:28 IST" name="setUp" finished-at="2021-10-07T16:56:43 IST" duration-ms="15014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:test.LoginPageTest@22ef9844]" started-at="2021-10-07T16:56:43 IST" name="loginPageTitleTest" finished-at="2021-10-07T16:56:44 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="forgotPwdLinkTest()[pri:2, instance:test.LoginPageTest@22ef9844]" started-at="2021-10-07T16:56:44 IST" name="forgotPwdLinkTest" finished-at="2021-10-07T16:56:44 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkTest -->
+        <test-method signature="logoTest()[pri:3, instance:test.LoginPageTest@22ef9844]" started-at="2021-10-07T16:56:44 IST" name="logoTest" finished-at="2021-10-07T16:56:44 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method signature="loginTest()[pri:4, instance:test.LoginPageTest@22ef9844]" started-at="2021-10-07T16:56:44 IST" name="loginTest" finished-at="2021-10-07T16:56:52 IST" duration-ms="7926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginPageTest@22ef9844]" started-at="2021-10-07T16:56:52 IST" name="tearDown" finished-at="2021-10-07T16:56:53 IST" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2021-10-07T16:56:53 IST" name="Dash Board Test" finished-at="2021-10-07T16:58:08 IST" duration-ms="74926">
+      <class name="test.DashBoardPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.DashBoardPageTest@4b8ee4de]" started-at="2021-10-07T16:56:53 IST" name="setUp" finished-at="2021-10-07T16:57:09 IST" duration-ms="15590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="dashBoardPageSetup()[pri:0, instance:test.DashBoardPageTest@4b8ee4de]" started-at="2021-10-07T16:57:09 IST" name="dashBoardPageSetup" finished-at="2021-10-07T16:57:20 IST" duration-ms="11452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashBoardPageSetup -->
+        <test-method signature="dashBoardPageTitleTest()[pri:1, instance:test.DashBoardPageTest@4b8ee4de]" started-at="2021-10-07T16:57:20 IST" name="dashBoardPageTitleTest" finished-at="2021-10-07T16:57:20 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashBoardPageTitleTest -->
+        <test-method signature="headerTest()[pri:2, instance:test.DashBoardPageTest@4b8ee4de]" started-at="2021-10-07T16:57:21 IST" name="headerTest" finished-at="2021-10-07T16:57:21 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerTest -->
+        <test-method signature="addCandidateTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.DashBoardPageTest@4b8ee4de]" started-at="2021-10-07T16:57:23 IST" name="addCandidateTest" data-provider="getCandidateTestData" finished-at="2021-10-07T16:57:33 IST" duration-ms="10501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Srishti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vivek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sinha]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ss.sinha@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8983255891]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Software Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCandidateTest -->
+        <test-method signature="addCandidateTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.DashBoardPageTest@4b8ee4de]" started-at="2021-10-07T16:57:33 IST" name="addCandidateTest" data-provider="getCandidateTestData" finished-at="2021-10-07T16:57:40 IST" duration-ms="7238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ashish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sinha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ashujump@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8983255892]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Junior Account Assistant]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCandidateTest -->
+        <test-method signature="addCandidateTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.DashBoardPageTest@4b8ee4de]" started-at="2021-10-07T16:57:40 IST" name="addCandidateTest" data-provider="getCandidateTestData" finished-at="2021-10-07T16:57:47 IST" duration-ms="6438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Verma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sagar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sagar.monu@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8983255893]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Payroll Administrator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCandidateTest -->
+        <test-method signature="addCandidateTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.DashBoardPageTest@4b8ee4de]" started-at="2021-10-07T16:57:47 IST" name="addCandidateTest" data-provider="getCandidateTestData" finished-at="2021-10-07T16:57:54 IST" duration-ms="6692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Daffodil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sinha]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[daffo94@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8983255894]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Senior Support Specialist]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCandidateTest -->
+        <test-method signature="addCandidateTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.DashBoardPageTest@4b8ee4de]" started-at="2021-10-07T16:57:54 IST" name="addCandidateTest" data-provider="getCandidateTestData" finished-at="2021-10-07T16:58:00 IST" duration-ms="6711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manoj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prasad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manoj.nanhe@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8983255895]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sales Representative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCandidateTest -->
+        <test-method signature="addCandidateTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.DashBoardPageTest@4b8ee4de]" started-at="2021-10-07T16:58:00 IST" name="addCandidateTest" data-provider="getCandidateTestData" finished-at="2021-10-07T16:58:07 IST" duration-ms="6895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Verma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rani]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[r.rani1961@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8983255896]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Senior QA Lead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCandidateTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.DashBoardPageTest@4b8ee4de]" started-at="2021-10-07T16:58:07 IST" name="tearDown" finished-at="2021-10-07T16:58:08 IST" duration-ms="1243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.DashBoardPageTest -->
+    </test> <!-- Dash Board Test -->
+  </suite> <!-- HRM -->
+</testng-results>
