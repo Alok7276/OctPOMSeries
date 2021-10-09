@@ -20,19 +20,25 @@ public class DriverFactory {
 	public WebDriver driver;
 	public Properties prop;
 
+	private static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
+
 	public WebDriver initDriver(Properties prop) {
-		String browserName = prop.getProperty("browser");//chrome
+		String browserName = prop.getProperty("browser");// chrome
 		if (browserName.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			tlDriver.set(new ChromeDriver());
 		} else if (browserName.equals("ff")) {
 			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
+			tlDriver.set(new FirefoxDriver());
 		}
-		driver.manage().deleteAllCookies();
-		driver.manage().window().maximize();
-		driver.get(prop.getProperty("url"));
-		return driver;
+		getDriver().manage().deleteAllCookies();
+		getDriver().manage().window().maximize();
+		getDriver().get(prop.getProperty("url"));
+		return getDriver();
+	}
+
+	public WebDriver getDriver() {
+		return tlDriver.get();
 	}
 
 	public Properties initProperties() {
@@ -49,15 +55,14 @@ public class DriverFactory {
 	}
 
 	public String getScreenshot() {
-		TakesScreenshot ts = (TakesScreenshot) driver;
-		File src = ts.getScreenshotAs(OutputType.FILE);
-
-		File dest = new File(Constants.path);
+		File src = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
+		String path = System.getProperty("user.dir") + "/screenshot/" + System.currentTimeMillis() + ".png";
+		File dest = new File(path);
 		try {
 			FileUtils.copyFile(src, dest);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		return Constants.path;
+		return path;
 	}
 }
